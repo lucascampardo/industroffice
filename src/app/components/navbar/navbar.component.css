@@ -1,0 +1,64 @@
+header {
+    margin: -8px;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #AF3039;
+    height: 100%;
+    width: 100%;
+}
+
+.info__bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9f9f9;
+    width: 23rem;
+    height: 100%;
+}
+
+.info__bar .email {
+    display: flex;
+    position: relative;
+    margin: 0 15px;
+}
+
+.info__bar .email p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.info__bar .feedback {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex: 1;
+}
+
+.container .login {
+    width: 40rem;
+}
+
+.container .login .login__btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+}
+
+.container .login__btn a {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    color: #f9f9f9;
+    width: 100%;
+}

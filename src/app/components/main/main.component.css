@@ -1,0 +1,86 @@
+h1 {
+    font-size: 29px;
+    font-family: "Montserrat", sans-serif;
+}
+
+span {
+    color: #AF3039;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fafafa;
+    align-items: flex-start;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 12px 15px;
+    gap: 12px;
+}
+
+.card__container .card__excel {
+    display: flex;
+    flex: 1;
+    gap: 2px;
+    padding: 23px;
+    flex-direction: column;
+    box-shadow: 0 3px 2px rgba(1, 75, 26, 0.9);
+    border-radius: 7px;
+}
+
+.card__container .card__excel .icon__excel {
+    display: flex;
+    background-color: #fafafa;
+    padding: 90px;
+    border-radius: 7px;
+    height: 57px;
+    width: 200px;
+    background: linear-gradient(to bottom, #e4e4e4, #b4b0b0);
+}
+
+.card__container .card__excel .icon__excel img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card__container .card__word {
+    display: flex;
+    flex: 1;
+    gap: 2px;
+    padding: 23px;
+    flex-direction: column;
+    height: 24.5rem;
+    box-shadow: 0 3px 2px rgba(31, 31, 136, 0.9);
+    border-radius: 7px;
+}
+
+
+.card__container .card__word .icon__word {
+    display: block;
+    background-color: var(--cor-branca);
+    padding: 86px;
+    border-radius: 7px;
+    height: 66px;
+    width: 200px;
+    background: linear-gradient(to bottom, #e4e4e4, #b4b0b0);
+}
+
+.card__container .card__powerpoint {
+    display: flex;
+    flex: 1;
+    gap: 2px;
+    padding: 16px;
+    flex-direction: column;
+    box-shadow: 0 3px 2px var(--card-powerpoint);
+    border-radius: 7px;
+}
+
+.card__container .card__powerpoint .icon__powerpoint {
+    display: flex;
+    background-color: var(--cor-branca);
+    padding: 90px;
+    border-radius: 7px;
+    height: 70px;
+    width: 53%;
+    background: linear-gradient(to bottom, #e4e4e4, #b4b0b0);
+}

@@ -1,4 +1,8 @@
-h1 {
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+h2 {
     font-size: 29px;
     font-family: "Montserrat", sans-serif;
 }
@@ -18,7 +22,19 @@ section {
     gap: 12px;
 }
 
-.card__container .card__excel {
+.card__excel .texto__excel h2 {
+    font-size: 22px;
+}
+
+.card__word .texto__word h2 {
+    font-size: 22px;
+}
+
+.card__powerpoint .texto__powerpoint h2{
+    font-size: 22px;
+}
+
+.card__container .card__excel, .card__word, .card__powerpoint {
     display: flex;
     flex: 1;
     gap: 2px;
@@ -28,7 +44,7 @@ section {
     border-radius: 7px;
 }
 
-.card__container .card__excel .icon__excel {
+.card__container .icon__excel, .icon__word, .icon__powerpoint {
     display: flex;
     background-color: #fafafa;
     padding: 90px;
@@ -44,26 +60,38 @@ section {
 }
 
 .card__container .card__word {
+    box-shadow: 0 3px 2px var(--card-word);
+}
+
+.card__container .card__powerpoint h2 {
+    width: auto;
+}
+
+.card__container .card__powerpoint {
+    box-shadow: 0 3px 2px var(--card-powerpoint);
+}
+
+/* .card__container .card__word {
     display: flex;
     flex: 1;
     gap: 2px;
     padding: 23px;
     flex-direction: column;
-    height: 24.5rem;
-    box-shadow: 0 3px 2px rgba(31, 31, 136, 0.9);
+    height: 373px;
     border-radius: 7px;
+    border: 1px solid #fafafa;
 }
-
 
 .card__container .card__word .icon__word {
-    display: block;
+    display: flex;
     background-color: var(--cor-branca);
-    padding: 86px;
+    padding: 90px;
     border-radius: 7px;
-    height: 66px;
-    width: 200px;
+    height: 70px;
+    width: 55%;
     background: linear-gradient(to bottom, #e4e4e4, #b4b0b0);
 }
+
 
 .card__container .card__powerpoint {
     display: flex;
@@ -83,4 +111,4 @@ section {
     height: 70px;
     width: 53%;
     background: linear-gradient(to bottom, #e4e4e4, #b4b0b0);
-}
+} */

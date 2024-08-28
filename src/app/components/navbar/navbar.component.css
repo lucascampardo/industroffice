@@ -1,5 +1,5 @@
-header {
-    margin:-8px;
+nav {
+    margin: -8px;
     padding: 0;
 }
 
@@ -9,7 +9,7 @@ header {
     justify-content: space-evenly;
     background-color: #AF3039;
     height: 75px;
-    width: 100vw;
+    width: 98.75vw;
 }
 
 .container .login, #homepage, #curso, #faculdade, #sobre, #feedback, #login__link {
